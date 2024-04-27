@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Hour</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Golden Hour</h1>
+            <p id="quote"></p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#themes">Themes</a></li>
+                    <li><a href="#binaural-beats">Binaural Beats</a></li>
+                    <li><a href="#timer">Timer</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="blog">
+        <div class="container">
+            <h2>Blog Platform</h2>
+            <textarea id="blog-text" placeholder="Write your blog post here..."></textarea>
+            <button id="clear-btn">Clear</button>
+        </div>
+    </section>
+
+    <section id="themes">
+        <div class="container">
+            <h2>Theme Selection</h2>
+            <div class="theme-options">
+                <label for="theme-light">
+                    <input type="radio" id="theme-light" name="theme" value="light" checked>
+                    Light Theme
+                </label>
+                <label for="theme-dark">
+                    <input type="radio" id="theme-dark" name="theme" value="dark">
+                    Dark Theme
+                </label>
+            </div>
+        </div>
+    </section>
+    
+    <section id="binaural-beats">
+        <div class="container">
+            <h2>Binaural Beats</h2>
+            <div class="beat-options">
+                <label for="beat1">
+                    <input type="radio" id="beat1" name="beat" value="beat1" checked>
+                    Beat 1
+                </label>
+                <!-- Add more beat options as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="timer">
+        <div class="container">
+            <h2>Timer</h2>
+            <div class="preset-times">
+                <h3>Choose a preset time:</h3>
+                <ul>
+                    
+                    <li><button class="preset-time-btn" data-time="10">10 Minutes</button></li>
+                    <li><button class="preset-time-btn" data-time="15">15 Minutes</button></li>
+                    <li><button class="preset-time-btn" data-time="25">25 Minutes</button></li>
+                    <li><button class="preset-time-btn" data-time="45">45 Minutes</button></li>
+                </ul>
+            </div>
+            <div class="custom-time">
+                <h3>Or set a custom time:</h3>
+                <input type="number" id="timer-input" min="1" placeholder="Custom time in minutes">
+                <button id="start-timer-btn">Start Timer</button>
+            </div>
+            <div id="timer-display">00:00</div>
+            <button id="reset-timer-btn">Reset Timer</button>
+        </div>
+    </section>
+    
+    <div id="random-image"></div>
+
+
+
+    <script src="scripts.js"></script>
+
+    <footer>
+        <div class="container">
+            
+            <div id="audio-player-container">
+                <audio id="audio-player" controls>
+                    <source src="audio1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p class="copyright">&copy; 2024 Golden Hour. All rights reserved. Developed by Hrishikesh V S</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
