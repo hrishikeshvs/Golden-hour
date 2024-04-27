@@ -1,6 +1,6 @@
 # Golden Hour App
 
-![Screenshot](screenshot.png)
+
 
 ## Description
 
@@ -15,9 +15,9 @@ Golden Hour is a web application that provides various features like a blog plat
 
 ## Website Link
 
-[Visit Golden Hour](# Golden Hour App
+[Visit Golden Hour](# https://hrishikeshvs.github.io/Golden-hour/)
 
-![Screenshot](screenshot.png)
+
 
 ## Description
 
