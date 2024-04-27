@@ -1,0 +1,148 @@
+/* Add this CSS to your styles.css file or within a style tag in your HTML file */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center; /* Center the header content */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px; /* Increase the font size */
+    color: #333;
+}
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+#timer {
+    padding: 40px 0;
+}
+
+#timer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.preset-times {
+    margin-bottom: 20px;
+}
+
+.preset-times h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.preset-times ul {
+    list-style: none;
+    padding: 0;
+}
+
+.preset-times ul li {
+    margin-bottom: 10px;
+}
+
+.preset-time-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.custom-time h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.custom-time input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 150px;
+}
+
+.custom-time button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#timer-display {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#reset-timer-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#random-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Light Theme */
+/* Light Theme Styles */
+.light-theme {
+    background-color: #ffffff;
+    color: #000000; /* Text color in light theme */
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+    background-color: #000000;
+    color: #ffffff; /* Text color in dark theme */
+}
+
+/* Adjusting the color of the title and navigation links */
+.dark-theme header h1,
+.dark-theme nav ul li a {
+    color: #ffffff; /* Adjust the color for readability */
+}
+
+
+#blog-text {
+    width: 100%; /* Make the input box 100% width */
+    height: 300px; /* Increase the height */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+footer {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+#audio-player-container {
+    display: inline-block;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
