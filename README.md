@@ -13,10 +13,6 @@ Golden Hour is a web application that provides various features like a blog plat
 - Binaural Beats: Listen to binaural beats for relaxation and focus.
 - Timer: Set countdown timers for various tasks.
 
-## Website Link
-
-[Visit Golden Hour](# https://hrishikeshvs.github.io/Golden-hour/)
-
 
 
 ## Description
@@ -34,10 +30,7 @@ Golden Hour is a web application that provides various features like a blog plat
 
 [Visit Golden Hour](https://hrishikeshvs.github.io/Golden-hour/)
 
-## Screenshots
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
 
 ## Usage
 
