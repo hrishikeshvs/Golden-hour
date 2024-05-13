@@ -30,6 +30,10 @@ Golden Hour is a web application that provides various features like a blog plat
 
 [Visit Golden Hour](https://hrishikeshvs.github.io/Golden-hour/)
 
+or scan this QR Code -
+
+![image](https://github.com/hrishikeshvs/Golden-hour/assets/87165698/8b73eba1-5a9b-4527-aef4-7b2d45dad092)
+
 
 
 ## Usage
